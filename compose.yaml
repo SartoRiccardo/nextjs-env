@@ -2,6 +2,8 @@ services:
   btd6maplist_web:
     build:
       context: .
+    ports:
+      - 3000:3000    
     environment:
       NODE_ENV: production
-      NEXT_SHARP_PATH: /app/node_modules/sharp
+
