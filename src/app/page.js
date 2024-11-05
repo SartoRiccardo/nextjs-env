@@ -1,4 +1,6 @@
-export default function Home() {
+export const dynamic = "force-dynamic";
+
+export default async function Home() {
   console.log(
     `Values:
     PRIVATE_VAR: ${process.env.PRIVATE_VAR}
