@@ -1,5 +1,5 @@
 services:
-  btd6maplist_web:
+  next_env_test:
     build:
       context: .
     ports:
